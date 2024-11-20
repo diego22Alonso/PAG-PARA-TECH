@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiPagWEB</title>
+  <link rel="stylesheet" type="text/css" href="C:\Users\Diego\Desktop\PAG PARA TECH\EstiloWeb.css">
+</head>
+
+<body>
+  <header>
+    <div id="navegador">
+      <div class="logo">
+        <a href="https://aulasvirtuales.bue.edu.ar/?redirect=0" class="brand">LOGO</a>
+        <img src="C:\Users\Diego\Desktop\PAG PARA TECH\img\logo2.png"alt="logo">
+      </div>
+      <nav role="navigation">
+        <ul>
+          <li><a href="#" class="nav-enlace">Inicio</a></li>
+          <li><a href="C:\Users\Diego\Desktop\PAG PARA TECH\nosotros.html" class="nav-enlace">Nosotros</a></li>
+          <li><a href="C:\Users\Diego\Desktop\PAG PARA TECH\servicios.html" class="nav-enlace">Servicios</a></li>
+          <li><a href="C:\Users\Diego\Desktop\PAG PARA TECH\contactos.html" class="nav-enlace">Contacto</a></li>
+          <li><a href="C:\Users\Diego\Desktop\PAG PARA TECH\acerca.html" class="nav-enlace">Acerca de</a></li>
+        </ul>
+      </nav>
+    </div><!--cierra NAVEGADOR-->
+  </header>
+
+  <main>
+    <div id="contenedor">
+      <h1 class="caja">Bienvenidos a mi primer Website!</h1>
+      <button onClick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>
+
+      <div class="row">
+        <div class="column">
+          <h2 class="caja1"> Vamos a ver que sale de esto... </h2>
+          <p>Soy Diego Alonso,<br>
+            ¡y esta es mi primera página web!
+            Estoy aprendiendo desarrollo web para crear sitios web 
+            visualmente atrapantes y funcionales.
+          </p>
+        </div>
+
+        <div class="column2">
+          <h2 class="caja1">Por ahora va bien!!! </h2>
+          <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript.<br>
+            Estos lenguajes me ayudarán a crear una base
+            sólida en el desarrollo web front-end.</p>
+        </div>
+      </div>
+    </div><!--cierra contenedor-->
+
+    <form id="myForm"><!--FORMULARIO-->
+      <fieldset>
+        <!--El elemento legend actúa como una leyenda/descripción,
+        para el contenido del elemento fieldset(encierra los botones en una caja propia).
+        Le da a los usuarios un contexto sobre lo que deben ingresar en esa parte del formulario.-->
+      <legend>botones radio?</legend>
+          <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+          <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+    </fieldset>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Enviar</button>
+    </form><!--CIERRA FORMULARIO-->
+
+    <div id="conteiner">
+      <h4 class="caja">IMAGENES y VIDEOS</h4>
+
+      <img
+        src="https://images.pagina12.com.ar/styles/focal_3_2_960x640/public/2023-01/692933-leo-20messi-20copa-20del-20mundo.jpeg?h=fcdc4171&itok=M1-X_CUN"
+        alt="MESSI" width="50%" height="50%" />
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qLKOLzDSoV4"
+        title="K e P e r s o n a j e s 2023 - 10 Grandes Exitos, Mejores Éxitos, Mejores Canciones" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      
+    </div><!--cierra conteiner-->
+  </main>
+
+  <footer>
+    <div id="pie">
+      <h4>PROYECTO DE MI PAGINA WEB</h4>
+      <button id="miBoton">Haz clic aqui</button>
+    </div>
+  </footer>
+  </body>
+
+</html>
